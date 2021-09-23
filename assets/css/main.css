@@ -49,12 +49,13 @@
   font-size: 18px;
 }
 
-.header__navbar-item-link,
+.header__navbar-list,
+.header__navbar-saparate,
+.header__navbar-item,
 .header__navbar-icon-link,
-.header__navbar-icon,
-.header__navbar-saparate {
+.header__navbar-item-link {
   display: inline-flex;
-  align-content: center;
+  align-items: center;
 }
 
 .header__navbar-icon-link {
@@ -62,8 +63,13 @@
   text-decoration: none;
 }
 
-.header__navbar-icon-link {
-  margin: 0 2px;
+.header__navbar-icon {
+  margin: 0 4px;
+}
+
+.header__navbar-title {
+  cursor: text;
+  color: var(--white-color);
 }
 
 /* header qr */
